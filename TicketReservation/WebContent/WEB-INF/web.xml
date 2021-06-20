@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+     
+     <servlet>
+     	<servlet-name>loginControl</servlet-name>
+     	<servlet-class>com.login.LoginController</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+		<servlet-name>loginControl</servlet-name>
+     	<url-pattern>/log</url-pattern>     
+     </servlet-mapping><!-- login controller -->
+     
+     <servlet>
+     	<servlet-name>regControl</servlet-name>
+     	<servlet-class>com.register.RegisterController</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+		<servlet-name>regControl</servlet-name>
+     	<url-pattern>/r</url-pattern>  
+     </servlet-mapping> <!-- registration controller -->  
+     
+     <servlet>
+     	<servlet-name>viewProfile</servlet-name>
+     	<servlet-class>com.owner.ownerDetailsViewController</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>viewProfile</servlet-name>
+     	<url-pattern>/view</url-pattern>
+     </servlet-mapping><!-- View Owner Details -->
+     
+     <servlet>
+     	<servlet-name>updateProfile</servlet-name>
+     	<servlet-class>com.owner.ownerDetailsUpdateController</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>updateProfile</servlet-name>
+     	<url-pattern>/update</url-pattern>
+     </servlet-mapping><!-- Update Owner -->
+     
+     
+     <servlet>
+     	<servlet-name>addBusDetails</servlet-name>
+     	<servlet-class>com.AddBus.AddBusController</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>addBusDetails</servlet-name>
+     	<url-pattern>/addBus</url-pattern>
+     </servlet-mapping><!-- Add Bus -->
+     
+     <servlet>
+     	<servlet-name>viewBusDetails</servlet-name>
+     	<servlet-class>com.Bus.ViewBusController</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>viewBusDetails</servlet-name>
+     	<url-pattern>/viewBus</url-pattern>
+     </servlet-mapping><!-- View Bus -->
+     
+     
+     <servlet>
+     	<servlet-name>deleteBus</servlet-name>
+     	<servlet-class>com.Bus.DeleteBusController</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>deleteBus</servlet-name>
+     	<url-pattern>/delete</url-pattern>
+     </servlet-mapping><!-- Delete Bus Details -->
+     
+    
+</web-app>

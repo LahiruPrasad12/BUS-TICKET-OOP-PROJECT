@@ -1,0 +1,422 @@
+@charset "ISO-8859-1";
+*{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.clearfix{
+	overflow: auto;
+}
+
+.wrapper{
+	margin : 0 auto;
+	width:1000px;	
+}
+
+.top-bar{
+	width:1000px;
+	background: maroon;
+}
+
+.top-bar-links{
+	float:left;
+}
+
+.top-bar-links a:hover{
+	color: yellow;
+}
+
+.top-bar-links ul{
+	margin:15px;
+	list-style: none;
+}
+
+.top-bar-links ul li{
+	padding:0 10px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+
+.top-bar-links ul li a{
+	color: white;
+}
+
+.site-search{
+	margin:15px;
+	background: white;
+	float : right;
+}/*End Of The Main navigation bar Stylish*/
+
+
+
+
+.logo{
+	float:left;
+	margin-top: 30px;
+}
+
+.logo h1{
+	font-variant: small-caps;
+	font-weight:normal;
+	letter-spacing:-1px;
+	font-size: 48px;
+}
+
+.profile{
+	float: right;
+	margin-top: 50px;
+	font-variant: small-caps;
+	font-weight:normal;
+	letter-spacing:1px;
+	font-size: 23px;
+}/*End header stylish*/
+
+
+
+
+
+
+
+nav{
+	margin-top:20px;
+	background: black;
+	text-align: center;
+	border-radius: 5px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display:inline;
+}
+
+nav ul li a{
+	color: #fff;
+	text-transform:uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 40px;
+	margin-left: 40px;
+	display: inline-block;
+	text-align: center;
+}
+
+nav ul li a:hover{
+	color: yellow;
+}
+
+.details input{
+	color: white;
+	background-color: black;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+}
+
+
+
+.details{
+	margin-left:400px;
+	margin-top: 100px;
+	font-size: 18px;
+	
+}
+.detailse{
+	margin-left:180px;
+	margin-right:60px;
+	margin-top: 20px;
+	font-size: 18px;
+	
+}
+
+ table{
+	margin-right:200px;
+	margin-left:0px;
+}
+
+
+nav ul li input{
+	color: white;
+	text-transform:uppercase;
+	display: inline-block;
+	text-align: center;
+	background-color:black;
+	position: relative;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 14px;
+	overflow: hidden;
+	border: none;
+	
+}
+
+
+
+nav ul li form{
+	color: black;
+	text-transform:uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 70px;
+	margin-left: 70px;
+	display: inline-block;
+	text-align: center;
+		
+}
+
+nav ul li input:hover{
+	color: yellow;
+}/*End Of The Navigation Bar Stylish*/
+
+
+.detail{
+	margin-left:400px;
+	margin-top: 100px;
+	font-size: 18px;
+	
+}
+
+.detail input{
+	color: black;
+	background-color: white;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	
+}
+
+
+
+/*login*/
+
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: #f8f8ff;
+	color: #000;
+	margin-left:600px;
+	margin-top: 100px;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.loginbox h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginbox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+}
+
+.loginbox input[type ="submit"] {
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	
+}
+
+.error{
+	color: red;
+}
+
+
+/*register*/
+.regnbox{
+	width: 450px;
+	height: 650px;
+	background: #f8f8ff;
+	color: #000;
+	margin-left:600px;
+	margin-top: 100px;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.regnbox h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.regnbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.regnbox input {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.regnbox input[type="text"], input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: #000;
+	font-size: 14px;
+	
+}
+
+.regnbox input[type ="submit"],input[type="button"] {
+	border:none;
+	outline: none;
+	height: 30px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 20px;
+	
+}
+
+.error{
+	color: red;
+}
+
+
+/*Add Bus*/
+.addnbox{
+	width: 450px;
+	height: 620px;
+	background: #f8f8ff;
+	color: #000;
+	margin-left:500px;
+	margin-top: 100px;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	
+}
+
+.addnbox h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.addnbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.addnbox input{
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.addnbox input[type="text"], input[type="password"],button[type="submit"] {
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: #000;
+	font-size: 15px;
+}
+
+
+
+.addnbox input[type ="submit"],input[type="button"] {
+	border:none;
+	outline: none;
+	height: 30px;
+	background: #fb2525;
+	color: #000;
+	font-size: 18px;
+	border-radius: 20px;
+	
+}
+
+.error{
+	color: red;
+}
+
+
+/*update user profile*/
+
+.detail{
+	width: 450px;
+	height: 620px;
+	background: #f8f8ff;
+	color: #000;
+	margin-left:270px;
+	margin-top: 50px;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+
+.detail input {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.detail input[type="text"], input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 15px;
+	color: #000;
+	font-size: 16px;
+}
+
+.detail input[type ="submit"],input[type="button"] {
+	border:none;
+	outline: none;
+	height: 30px;
+	background: #fb2525;
+	color: #000;
+	font-size: 18px;
+	border-radius: 20px;
+	
+}
+
+.error{
+	color: red;
+}
+
+
+/*view profile*/
+
+
+
